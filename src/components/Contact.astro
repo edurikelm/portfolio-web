@@ -1,0 +1,65 @@
+---
+
+---
+
+<section id="contacto" class="px-6 py-24">
+  <div class="mx-auto max-w-3xl">
+    <h2 class="mb-6 text-center text-3xl font-bold text-white md:text-4xl">
+      Hablemos<span class="text-cyan-400">.</span>
+    </h2>
+    <p class="mb-12 text-center text-lg text-gray-400">
+      ¿Tienes un proyecto en mente o quieres colaborar? No dudes en contactarme.
+    </p>
+    <form class="space-y-6" action="#" method="POST">
+      <div class="grid gap-6 md:grid-cols-2">
+        <div>
+          <label for="name" class="mb-2 block text-sm font-medium text-gray-300">
+            Nombre
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            class="w-full rounded-lg border border-gray-700 bg-gray-900 px-4 py-3 text-white placeholder-gray-500 outline-none transition-colors focus:border-cyan-500"
+            placeholder="Tu nombre"
+          />
+        </div>
+        <div>
+          <label for="email" class="mb-2 block text-sm font-medium text-gray-300">
+            Email
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="w-full rounded-lg border border-gray-700 bg-gray-900 px-4 py-3 text-white placeholder-gray-500 outline-none transition-colors focus:border-cyan-500"
+            placeholder="tu@email.com"
+          />
+        </div>
+      </div>
+      <div>
+        <label for="message" class="mb-2 block text-sm font-medium text-gray-300">
+          Mensaje
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          required
+          class="w-full resize-none rounded-lg border border-gray-700 bg-gray-900 px-4 py-3 text-white placeholder-gray-500 outline-none transition-colors focus:border-cyan-500"
+          placeholder="Cuéntame sobre tu proyecto..."
+        ></textarea>
+      </div>
+      <div class="text-center">
+        <button
+          type="submit"
+          class="rounded-lg bg-cyan-500 px-10 py-3 font-semibold text-gray-950 transition-colors hover:bg-cyan-400"
+        >
+          Enviar mensaje
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
